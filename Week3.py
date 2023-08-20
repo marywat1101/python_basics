@@ -60,15 +60,36 @@
 
 # Double or nothing 
 
-string = input("string: ")
-is_double = False
+# string = input("string: ")
+# is_double = False
 
 
-for i in range(0, len(list(string))-1):
-    if string[i] == string[i+1]:
-        is_double = True
+# for i in range(0, len(list(string))-1):
+#     if string[i] == string[i+1]:
+#         is_double = True
 
-if is_double == True:
-    print("double")
-else:
-    print("nothing")
+# if is_double == True:
+#     print("double")
+# else:
+#     print("nothing")
+
+
+# Capitalizing Words simple method
+
+# string = "laura"
+
+# print(string.title())
+
+# Capitalizing Words
+# one
+
+input = input("Enter input: ").split()
+
+for word in input:
+    l = list(word) 
+    l[0] = chr(ord(l[0])-32)
+    l = ''.join(l)
+    print(l, end=" ")  
+
+
+
