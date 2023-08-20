@@ -83,13 +83,29 @@
 # Capitalizing Words
 # one
 
-input = input("Enter input: ").split()
+# input = input("Enter input: ").split()
 
-for word in input:
-    l = list(word) 
-    l[0] = chr(ord(l[0])-32)
-    l = ''.join(l)
-    print(l, end=" ")  
+# for word in input:
+#     l = list(word) 
+#     l[0] = chr(ord(l[0])-32)
+#     l = ''.join(l)
+#     print(l, end=" ")  
 
+# Password Generator
 
+from random import randint
+
+vowels = ["a","e","i","o","u"]
+consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z']
+
+password = ""
+while len(password) <= 8:
+
+    vowel = vowels[randint(0, len(vowels)-1)]
+    consonant = consonants[randint(0, len(consonants)-1)]
+
+    password += consonant
+    password += vowel
+
+print(password)
 
