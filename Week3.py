@@ -57,3 +57,18 @@
 
 # print(l == m)
 # print(l == n)
+
+# Double or nothing 
+
+string = input("string: ")
+is_double = False
+
+
+for i in range(0, len(list(string))-1):
+    if string[i] == string[i+1]:
+        is_double = True
+
+if is_double == True:
+    print("double")
+else:
+    print("nothing")
