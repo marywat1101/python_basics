@@ -93,19 +93,40 @@
 
 # Password Generator
 
-from random import randint
+# from random import randint
 
-vowels = ["a","e","i","o","u"]
-consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z']
+# vowels = ["a","e","i","o","u"]
+# consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z']
 
-password = ""
-while len(password) <= 8:
+# password = ""
+# while len(password) <= 8:
 
-    vowel = vowels[randint(0, len(vowels)-1)]
-    consonant = consonants[randint(0, len(consonants)-1)]
+#     vowel = vowels[randint(0, len(vowels)-1)]
+#     consonant = consonants[randint(0, len(consonants)-1)]
 
-    password += consonant
-    password += vowel
+#     password += consonant
+#     password += vowel
 
-print(password)
+# print(password)
+
+# String Comparison
+
+# S = input("Enter S: ")
+# T = input("Enter T: ")
+
+# if S > T:
+#     print(S)
+# else:
+#     print(T)
+
+# S = input("Enter S: ")
+# T = input("Enter T: ")
+
+# for i in range(len(S)):
+#     if ord(S[i]) > ord(T[i]):
+#         print(S)
+#         break
+#     elif ord(S[i]) < ord(T[i]):
+#         print(T)
+#         break
 
