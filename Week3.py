@@ -130,3 +130,29 @@
 #         print(T)
 #         break
 
+# Starts With
+
+# S = input("Enter S: ")
+# T = input("Enter T: ")
+# starts_with = False
+
+# for i in range(len(T)):
+#     if T[i] == S[i]:
+#         starts_with = True
+#     else:
+#         starts_with = False
+#         break
+
+# print(starts_with)
+
+# Contains
+
+
+        
+
+
+
+
+        
+
+
