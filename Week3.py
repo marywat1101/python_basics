@@ -149,6 +149,19 @@
 
 # no knowledge of functions yet
 
+N = int(input("Enter N: "))
+T = int(input("Enter T: "))
+
+for i in range (1, T):
+    l = []
+    for j in range (i, i+N):
+        l.append(j)
+    if sum(l) == T:
+        print(l)
+        break
+    elif sum(l) > T:
+        print("none")
+        break
 
         
 
