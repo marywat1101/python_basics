@@ -147,6 +147,8 @@
 
 # Contains
 
+# no knowledge of functions yet
+
 
         
 
