@@ -173,7 +173,14 @@ alphabet = [0] * 26
 for c in sample:
     alphabet[ord(c.lower()) - 97] += 1
 
-print(alphabet)
+for i in range(len(alphabet)):
+    character = chr(i+97)
+    print(f"{character}: {alphabet[i]*'*'}")
+    
+
+
+
+
 
 
 
