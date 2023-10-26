@@ -203,7 +203,7 @@
 
 # Spaces In Between
 
-string = input("string: ")
+# string = input("string: ")
 
-for c in string:
-    print(c, end=" ")
+# for c in string:
+#     print(c, end=" ")

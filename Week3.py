@@ -166,29 +166,51 @@
 # Letter Histogram
 # Most frequent
 
-sample = input("input sample: ")
+# sample = input("input sample: ")
 
-alphabet = [0] * 26
+# alphabet = [0] * 26
 
-for c in sample:
-    alphabet[ord(c.lower()) - 97] += 1
+# for c in sample:
+#     alphabet[ord(c.lower()) - 97] += 1
 
-for i in range(len(alphabet)):
-    character = chr(i+97)
-    print(f"{character}: {alphabet[i]*'*'}")
+# for i in range(len(alphabet)):
+#     character = chr(i+97)
+#     print(f"{character}: {alphabet[i]*'*'}")
     
 
+#blablabla
 
+# outlier
 
+# missing data
 
+# A = {1,2,3,5,6,7}
 
+# find missing data
 
+# Arrays
+# Linked Lists
+# Stacks
+# Queues
+# Maps & Hash Tables
+# Graphs
+# Trees
+# Binary Trees & Binary Search Trees
+# Self-balancing Trees (AVL Trees, Red-Black Trees, Splay Trees)
+# Heaps
+# Tries
+# Segment Trees
+# Fenwick Trees
+# Disjoint Set Union
+# Minimum Spanning Trees
 
-        
+n = int(input("Enter n: "))
+c = int(input("Enter c: "))
+b = int(input("Enter b: "))
 
+def sum_of_two(number, number1):
+    return number + number1
 
-
-
-        
-
-
+print(sum_of_two(n, c))
+print(sum_of_two(n, n))
+print(sum_of_two(b, c))
